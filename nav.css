@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    
+    
+}
+section{
+    top: 0;
+    background-color: aqua;
+    position: sticky;
+    width:100%;
+
+}
+section h1{
+    display: inline;
+}
+section nav{
+    
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: end;
+
+}
+section nav  a{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
